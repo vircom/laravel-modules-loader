@@ -4,6 +4,11 @@
     <arg name="tab-width" value="4"/>
     <arg value="p"/>
     <arg name="colors"/>
+    
+    <!-- Paths to check -->
+    <file>./config</file>
+    <file>./src</file>
+    <file>./tests</file>
 
     <!-- 2. General -->
 
@@ -205,9 +210,4 @@
     Argument lists and variable lists MAY be split across multiple lines, where each subsequent line is indented once. When doing so, the first item in the list MUST be on the next line, and there MUST be only one argument or variable per line.
     When the ending list (whether or arguments or variables) is split across multiple lines, the closing parenthesis and opening brace MUST be placed together on their own line with one space between them. -->
     <!-- checked in Squiz.Functions.MultiLineFunctionDeclaration -->
-    
-    <!-- Paths to check -->
-    <file>config</file>
-    <file>src</file>
-    <file>tests</file>
 </ruleset>

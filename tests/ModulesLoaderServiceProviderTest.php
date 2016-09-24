@@ -41,9 +41,10 @@ class ModulesLoaderServiceProviderTest extends \PHPUnit_Framework_TestCase
     public function testThrowsClassNotFoundsExceptionWhenUnableLoadClass()
     {
         $config = $this->getFunctionMock("VirCom\\Laravel\\ModulesLoader", "config");
-        $config->expects($this->once())->willReturn([
-            "\\Vendor\\Package\\Subpackage\\Module"
-        ]);
+        $config->expects($this->once())
+            ->willReturn([
+                "\\Vendor\\Package\\Subpackage\\Module"
+            ]);
 
         
         $this->applicationMock
