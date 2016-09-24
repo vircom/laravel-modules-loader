@@ -1,0 +1,37 @@
+{
+    "name": "vircom/laravel-modules-loader",
+    "type": "library",
+    "description": "Laravel modules loader library",
+    "keywords": ["laravel", "module", "modules", "vircom"],
+    "homepage": "http://vircom.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VirCom",
+            "email": "kamil.rak@vircom.pl",
+            "role": "Developer",
+            "homepage": "http://vircom.pl"
+        }
+    ],
+    "support": {
+        "email": "kamil.rak@vircom.pl"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "VirCom\\Laravel\\ModulesLoader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VirComTest\\Laravel\\ModulesLoader\\": "tests/"
+        }
+    }
+}
