@@ -28,7 +28,7 @@ Next add the following service provider in `config/app.php`.
 
 At least, public modules configuration file:
 ```bash
-
+php artisan vendor:publish --provider="VirCom\Laravel\ModulesLoader\ModulesLoaderServiceProvider"
 ```
 
 ## Configuration

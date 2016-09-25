@@ -10,6 +10,19 @@ use VirCom\Laravel\ModulesLoader\Exceptions\ClassNotExtendsServiceProviderExcept
 class ModulesLoaderServiceProvider extends ServiceProvider
 {
     /**
+     * @return void
+     */
+    public function boot()
+    {
+        $this->publishes(
+            [
+                __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR .
+                    'config' . DIRECTORY_SEPARATOR . 'modules.php' => config_path('modules.php'),
+            ]
+        );
+    }
+    
+    /**
      * @throws ClassNotFoundsException throws, when class is not exists or was not loaded
      * @throws ClassNotExtendsServiceProviderException throws, when class doesn't extends ServiceProvider class
      * @return void

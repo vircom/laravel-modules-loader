@@ -9,6 +9,9 @@
     <file>./config</file>
     <file>./src</file>
     <file>./tests</file>
+    
+    <!-- Excludes -->
+    <exclude-pattern>./tests/logs/*</exclude-pattern>
 
     <!-- 2. General -->
 

@@ -90,4 +90,12 @@ class ModulesLoaderServiceProviderTest extends \PHPUnit_Framework_TestCase
         
         $this->modulesLoaderServiceProvider->register();
     }
+    
+    public function testSuccessfullRegisterPublishes()
+    {
+        $config = $this->getFunctionMock("VirCom\\Laravel\\ModulesLoader", "config_path");
+        $config->expects($this->once())->willReturn("");
+        
+        $this->modulesLoaderServiceProvider->boot();
+    }
 }
