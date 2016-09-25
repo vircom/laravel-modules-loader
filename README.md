@@ -45,6 +45,11 @@ At first, you should add to your **composer.json** lines, to load PSR-4 files. E
 }
 ```
 
+Dont forget to run command:
+```bash
+composer dump-autoload
+```
+
 After that, create **modules** directory and module structre inside it:
 ```
 modules
