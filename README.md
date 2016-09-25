@@ -1,7 +1,12 @@
 Laravel modules loader library
 =========
+[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg?maxAge=2592000)](https://github.com/vircom/laravel-modules-loader)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/vircom/laravel-modules-loader/master.svg?style=flat-square)](https://travis-ci.org/vircom/laravel-modules-loader)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/48f72021-ee2d-4c0b-8de6-cb23dda6ce23.svg?style=flat-square)](https://insight.sensiolabs.com/projects/48f72021-ee2d-4c0b-8de6-cb23dda6ce23)
+[![Total Downloads](https://img.shields.io/packagist/dt/vircom/laravel-modules-loader.svg?style=flat-square)](https://packagist.org/packages/vircom/laravel-modules-loader)
 
-[vircom/laravel-modules-loader] is a Laravel package allows you to easy loads modules used in your application.
+vircom/laravel-modules-loader is a Laravel package allows you to easy loads modules used in your application.
 
 
 ## Installation
