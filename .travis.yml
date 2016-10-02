@@ -4,5 +4,5 @@ php:
 install:
     - composer install --quiet
 script:
-    - vendor\bin\phpunit --coverage-text
-    - vendor\bin\humbug
+    - vendor/bin/phpunit --coverage-text
+    - vendor/bin/humbug
