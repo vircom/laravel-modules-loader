@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types = 1);
 namespace VirComTest\Laravel\ModulesLoader;
 
 use Illuminate\Support\ServiceProvider;

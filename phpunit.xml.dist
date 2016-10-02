@@ -1,4 +1,4 @@
-<phpunit bootstrap="bootstrap.php"
+<phpunit bootstrap="tests/bootstrap.php"
     backupGlobals="false"
     backupStaticAttributes="false"
     cacheTokens="false"
@@ -15,16 +15,16 @@
     verbose="true"
     colors="true">
     <testsuite name="Laravel modules loader library">
-        <directory suffix="Test.php" phpVersion="7.0" phpVersionOperator=">=">./../tests</directory>
+        <directory suffix="Test.php" phpVersion="7.0" phpVersionOperator=">=">./tests</directory>
     </testsuite>
     <logging>
-        <log type="coverage-html" target="./logs/coverage" charset="UTF-8" yui="true" highlight="false" lowUpperBound="35" highLowerBound="80" />
-        <log type="testdox-html" target="./logs/testdox.html" />
-        <log type="coverage-clover" target="./logs/clover.xml"/>
+        <log type="coverage-html" target="./tests/logs/phpunit/coverage" charset="UTF-8" yui="true" highlight="false" lowUpperBound="35" highLowerBound="80" />
+        <log type="testdox-html" target="./tests/logs/phpunit/testdox.html" />
+        <log type="coverage-clover" target="./tests/logs/phpunit/clover.xml"/>
     </logging>
     <filter>
         <whitelist>
-            <directory suffix=".php">../src/</directory>
+            <directory suffix=".php">./src/</directory>
         </whitelist>
     </filter>
 </phpunit>
