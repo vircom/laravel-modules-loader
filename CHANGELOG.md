@@ -2,6 +2,12 @@ Laravel modules loader library
 =========
 # All notable changes to this project will be documented in this file.
 
+## 1.0.1 - 2016-10-22
+### Changed
+* Update README.md
+### Fixed
+* Exception raised, when modules.php file doesn't exists
+
 ## 1.0.0 - 2016-10-03
 ### Added
 * Force PHP 7 strict mode

@@ -29,7 +29,7 @@ class ModulesLoaderServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerModules(config("modules"));
+        $this->registerModules(config("modules", []));
     }
 
     /**

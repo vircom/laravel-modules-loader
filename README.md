@@ -59,7 +59,8 @@ After that, create **modules** directory and module structre inside it:
 ```
 modules
 +-- src
-|   +-- Module.php
+|   +-- Module
+|       +-- Module.php
 ```
 
 **Module.php** file must be subclass of Illuminate\Support\ServiceProvider larvel provider class.
